@@ -3,8 +3,8 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 image:
-  repository: draft
-  tag: dev
+  repository: 10.96.35.98:5000/snorkmitzumi/spring-boot-rest-prometheus
+  tag: 0.0.1
   pullPolicy: IfNotPresent
 service:
   name: spring-boot-rest-prometheus
